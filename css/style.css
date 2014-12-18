@@ -1,0 +1,25 @@
+@font-face {
+  font-family: Quicksand-Light;
+  src: url(../fonts/Quicksand-Light.otf);
+}
+
+body{
+	background: #CCC9CC;
+}
+
+h1{
+	width: 300px;
+	/*text-align: left;*/
+	color: #FFF;
+	font-size: 5.5em;
+	margin: 0px;
+	font-family: Quicksand-Light, Helvetica, Arial;
+	z-index: 100;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}

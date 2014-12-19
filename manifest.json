@@ -3,7 +3,7 @@
 
   "name": "Color Clock",
   "description": "Color changing clock based on current time converted to hex color codes",
-  "version": "1.0",
+  "version": "0.1",
   "offline_enabled": true,
   "chrome_url_overrides": {
     "newtab": "index.html"

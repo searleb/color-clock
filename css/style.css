@@ -1,6 +1,6 @@
 @font-face {
-  font-family: Quicksand-Light;
-  src: url(../fonts/Quicksand-Light.otf);
+  font-family: Elegant;
+  src: url(../fonts/elegantlux.otf);
 }
 
 body{
@@ -8,13 +8,11 @@ body{
 }
 
 h1{
-	width: 300px;
-	/*text-align: left;*/
+	width: 285px;
 	color: #FFF;
-	font-size: 5.5em;
+	font-size: 7em;
 	margin: 0px;
-	font-family: Quicksand-Light, Helvetica, Arial;
-	z-index: 100;
+	font-family: Elegant, Helvetica, Arial;
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -22,4 +20,10 @@ h1{
 	-moz-transform: translate(-50%, -50%);
 	-o-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.hidden{
+	display: none;
 }

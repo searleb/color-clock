@@ -20,11 +20,11 @@ function colorClock () {
 	lightColors = lightColors.replace(/2/g, 'c');
 
 	// update the time on the page
-	document.getElementById("time").innerHTML = time;
-	document.getElementById("hex").innerHTML = '#' + lightColors;
+	$("#time").html(time);
+	$("#hex").html('#' + lightColors);
 	
 	// fade the background color
-	Velocity( document.getElementsByTagName("body"), { backgroundColor: '#' + lightColors }, 1000);
+	Velocity( $("body"), { backgroundColor: '#' + lightColors }, 1000);
 };
 
 

@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "Color Clock",
+  "name": "Hex Clock",
   "description": "Color changing clock based on current time converted to hex color codes",
-  "version": "0.1",
+  "version": "0.3",
   "offline_enabled": true,
   "chrome_url_overrides": {
     "newtab": "index.html"
